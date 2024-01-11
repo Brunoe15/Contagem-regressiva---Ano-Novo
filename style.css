@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imagens/anonovo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 4.5rem;
+    color: black;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: white;
+    padding: 8px;
+}
+.contador{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.texto{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+span{
+    font-size: 1.5rem;
+}
+.contador-el{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    padding: 5px;
+}
